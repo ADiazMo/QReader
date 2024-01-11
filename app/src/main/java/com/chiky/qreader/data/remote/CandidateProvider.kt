@@ -5,6 +5,6 @@ import com.chiky.qreader.data.model.Scanned
 
 class CandidateProvider {
     companion object{
-        val candidate = Candidate(1,"Agustín","Díaz","adiaz@infoempleo.com","+34637000000")
+        val candidate = Candidate(1,"Nombre","apellidos","loquesea@loquesea.com","+34637000000")
     }
 }

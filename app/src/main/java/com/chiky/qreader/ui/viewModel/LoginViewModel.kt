@@ -9,7 +9,7 @@ import com.chiky.qreader.util.MyApplication
 class LoginViewModel : ViewModel() {
 
     fun LoginCandidate(login: Login): Boolean{
-        val candidate = Candidate(1,"Agustín","Díaz",login.nickName,"+34637000000")
+        val candidate = Candidate(1,"nombre","apellidos",login.nickName,"+34637000000")
         MyApplication().currentUser = candidate // CandidateProvider.candidate
         return true
     }
